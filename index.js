@@ -1,1 +1,2 @@
-console.log("Olá Mundo")
+let mensagem = "Olá mundo!"
+console.log(mensagem)
