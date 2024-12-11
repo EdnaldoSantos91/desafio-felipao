@@ -1,8 +1,9 @@
-let heroi = "Eduardo"
-let xp = 11000
+//Variaveis
+let heroi = "Pilopi" // nome do herói
+let xp = 11000 // xp do herói
+let nivel = "" // Nivel inicial vazio
 
-let nivel = ""
-
+// Estrutura de Decisão com switch case
 switch (true) {
   case xp < 1000:
    nivel = "Ferro"
@@ -38,5 +39,5 @@ switch (true) {
 
 
 }
-
+// Saida!!
 console.log(`${heroi} tem ${xp} de xp, e ele está no Rank ${nivel}!`)
